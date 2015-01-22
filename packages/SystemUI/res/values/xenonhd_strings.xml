@@ -45,5 +45,10 @@
     <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
     <string name="quick_settings_expanded_navigation_off">Hide navbar</string>
     <string name="quick_settings_expanded_statusbar_off">Hide statusbar</string>
+    <string name="quick_settings_nfc_label">NFC</string>
+    <string name="accessibility_quick_settings_nfc_off">NFC off.</string>
+    <string name="accessibility_quick_settings_nfc_on">NFC on.</string>
+    <string name="accessibility_quick_settings_nfc_changed_off">NFC turned off.</string>
+    <string name="accessibility_quick_settings_nfc_changed_on">NFC turned on.</string>
 
 </resources>
