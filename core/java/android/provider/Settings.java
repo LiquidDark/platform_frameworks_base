@@ -3920,12 +3920,6 @@ public final class Settings {
          */
         public static final String HIDE_CARRIER_MAX_NOTIFICATION = "hide_carrier_max_notification";
 
-	/**
-         * Enable double tap gesture anywhere on the lock screen put device to sleep
-         * @hide
-         */
-        public static final String DOUBLE_TAP_SLEEP_ANYWHERE = "double_tap_sleep_anywhere";
-
         /**
          * Shows custom date before clock time
          * 0 - No Date
