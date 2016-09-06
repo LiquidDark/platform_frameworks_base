@@ -297,4 +297,6 @@
     <!-- Allow Opa (Pixel navbar) layout -->
     <bool name="config_allowOpaLayout">true</bool>
 
+    <!-- When true,show the AutoBrightness checkbox -->
+    <bool name="config_show_auto_brightness">false</bool>
 </resources>
