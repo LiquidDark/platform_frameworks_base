@@ -3720,6 +3720,11 @@ public final class Settings {
          */
         public static final String STATUSBAR_BATTERY_BAR_ANIMATE = "statusbar_battery_bar_animate";
 
+	/**
+         * @hide
+         */
+        public static final String SHOW_SU_INDICATOR = "show_su_indicator";
+
         /**
          * Network traffic indicator, goes from least to greatest significant bitwise
          * 0 = Display up-stream traffic if set
