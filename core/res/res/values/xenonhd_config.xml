@@ -32,4 +32,7 @@
     <!-- True if the notifications should dynamically tint the app icon and app title -->
     <bool name="config_allowNotificationIconTextTinting">true</bool>
 
+    <!-- Singlehanded Mode -->
+    <bool name="single_hand_mode">true</bool>
+
 </resources>
