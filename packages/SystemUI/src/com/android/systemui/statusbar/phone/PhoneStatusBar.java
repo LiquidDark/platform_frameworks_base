@@ -488,6 +488,9 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
                     Settings.Secure.QS_ROWS_LANDSCAPE), false, this, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                     Settings.Secure.QS_COLUMNS), false, this, UserHandle.USER_ALL);
+            resolver.registerContentObserver(Settings.System.getUriFor(
+                    Settings.System.QS_TILE_TITLE_VISIBILITY), false, this, UserHandle.USER_ALL);
+            update();
 
             CurrentUserTracker userTracker = new CurrentUserTracker(mContext) {
                 @Override
