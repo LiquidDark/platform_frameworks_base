@@ -2848,6 +2848,9 @@
   <java-symbol type="drawable" name="lockscreen_notselected" />
   <java-symbol type="drawable" name="lockscreen_selected" />
 
+  <java-symbol type="integer" name="config_sms_authorization_timeout_ms" />
+  <java-symbol type="bool" name="config_sms_authorization_enabled" />
+
   <!-- Quick settings tiles columns and rows config -->
   <java-symbol type="integer" name="config_qs_num_rows_landscape_default"/>
 
