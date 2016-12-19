@@ -94,6 +94,7 @@ public class BatteryMeterDrawable extends Drawable implements
     private String mWarningString;
     private final int mCriticalLevel;
     private int mChargeColor;
+    private int mStyle;
     private final Path mBoltPath = new Path();
     private final Path mPlusPath = new Path();
 
@@ -153,6 +154,7 @@ public class BatteryMeterDrawable extends Drawable implements
     public BatteryMeterDrawable(Context context, Handler handler, int frameColor, int style) {
         mContext = context;
         mHandler = handler;
+        mStyle = style;
         final Resources res = context.getResources();
         TypedArray levels = res.obtainTypedArray(R.array.batterymeter_color_levels);
         TypedArray colors = res.obtainTypedArray(R.array.batterymeter_color_values);
@@ -268,8 +270,11 @@ public class BatteryMeterDrawable extends Drawable implements
         mLevel = level;
         mPluggedIn = pluggedIn;
 
-        if (CMSettings.System.getInt(mContext.getContentResolver(),
-                CMSettings.System.STATUS_BAR_BATTERY_STYLE, 0) == 2) {
+        if (mStyle == BATTERY_STYLE_CIRCLE) {
+            animateCircleBattery(level, pluggedIn, charging);
+        }
+		
+	if (mStyle == BATTERY_STYLE_SOLID) {
             animateCircleBattery(level, pluggedIn, charging);
         }
 
