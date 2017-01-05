@@ -289,4 +289,8 @@
 
     <!-- Allow the flashlight service to use wakelocks -->
     <bool name="config_useWakelockForFlashlight">false</bool>
+
+    <!-- Allow Opa (Pixel navbar) layout -->
+    <bool name="config_allowOpaLayout">true</bool>
+
 </resources>
