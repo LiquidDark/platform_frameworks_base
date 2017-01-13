@@ -24,6 +24,8 @@ import com.android.systemui.R;
 import com.android.systemui.statusbar.phone.ButtonDispatcher;
 import com.android.systemui.statusbar.policy.KeyButtonView;
 
+import cyanogenmod.providers.CMSettings;
+
 public class OpaLayout extends FrameLayout implements ButtonDispatcher.ButtonInterface{
 
     private static final int ANIMATION_STATE_NONE = 0;
@@ -576,8 +578,8 @@ public class OpaLayout extends FrameLayout implements ButtonDispatcher.ButtonInt
     }
 
     public void setOpaEnabled(boolean enabled) {
-        final boolean opaToggle = Settings.System.getIntForUser(this.getContext().getContentResolver(),
-            Settings.System.PIXEL_NAV_ANIMATION, 1, UserHandle.USER_CURRENT) == 1;
+        final boolean opaToggle = CMSettings.System.getIntForUser(this.getContext().getContentResolver(),
+            CMSettings.System.PIXEL_NAV_ANIMATION, 1, UserHandle.USER_CURRENT) == 1;
         final boolean b1 = this.getContext().getResources().getBoolean(R.bool.config_allowOpaLayout);
         final boolean b2 = (enabled || UserManager.isDeviceInDemoMode(this.getContext())) && b1 && opaToggle;
         this.mOpaEnabled = b2;
