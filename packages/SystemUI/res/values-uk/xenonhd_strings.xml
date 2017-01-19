@@ -44,16 +44,11 @@
   <string name="accessibility_quick_settings_caffeine_off">Заборона сну вимк</string>
   <string name="accessibility_quick_settings_caffeine_on">Заборона сну увімк</string>
   <string name="quick_settings_nfc_label">NFC</string>
-  <string name="accessibility_quick_settings_nfc_off">NFC вимк.</string>
-  <string name="accessibility_quick_settings_nfc_changed_off">NFC вимкнено</string>
-  <string name="accessibility_quick_settings_nfc_changed_on">NFC увімкнуто</string>
   <string name="quick_settings_heads_up_label">Спливаючі сповіщення</string>
-  <string name="accessibility_quick_settings_heads_up_off">Спливаючі сповіщення вимкнуті</string>
-  <string name="accessibility_quick_settings_heads_up_on">Спливаючі сповіщення увімкнуті</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Спливаючі сповіщення вимкнено</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Спливаючі сповіщення увімкнено</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
+  <!-- Path data for Solid battery -->
+  <!-- Floating action button -->
 </resources>

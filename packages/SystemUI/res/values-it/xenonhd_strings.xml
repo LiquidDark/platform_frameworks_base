@@ -21,7 +21,7 @@
   <string name="quick_settings_expanded_desktop">Espandi</string>
   <string name="quick_settings_expanded_desktop_off">Normale</string>
   <string name="quick_settings_screenshot_label">Screenshot</string>
-  <string name="quick_settings_adb_network">ADB network</string>
+  <string name="quick_settings_adb_network">Rete ADB</string>
   <string name="quick_settings_network_adb_enabled_label">Attivato</string>
   <string name="quick_settings_network_adb_disabled_label">Disabilitato</string>
   <string name="quick_settings_sync_label">Sincronizzazione</string>
@@ -46,12 +46,13 @@
   <string name="quick_settings_expanded_navigation_off">Nascondi barra di navigazione</string>
   <string name="quick_settings_expanded_statusbar_off">Nascondi barra di stato</string>
   <string name="quick_settings_nfc_label">NFC</string>
-  <string name="accessibility_quick_settings_nfc_off">NFC non attivo</string>
+  <string name="accessibility_quick_settings_nfc_off">NFC spento</string>
+  <string name="accessibility_quick_settings_nfc_on">NFC attivo</string>
   <string name="accessibility_quick_settings_nfc_changed_off">NFC disabilitato</string>
-  <string name="accessibility_quick_settings_nfc_changed_on">NFC abilitato</string>
+  <string name="accessibility_quick_settings_nfc_changed_on">NFC attivato</string>
   <string name="quick_settings_heads_up_label">Notifiche a comparsa</string>
   <string name="accessibility_quick_settings_heads_up_off">Notifiche a comparsa non attive</string>
-  <string name="accessibility_quick_settings_heads_up_on">Notifiche a comparsa attivate</string>
+  <string name="accessibility_quick_settings_heads_up_on">Notifiche a comparsa attive</string>
   <string name="accessibility_quick_settings_heads_up_changed_off">Notifiche a comparsa disattivate</string>
   <string name="accessibility_quick_settings_heads_up_changed_on">Notifiche a comparsa attivate</string>
   <string name="quick_settings_ambient_display_label">Ambient display</string>
@@ -63,5 +64,7 @@
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
-  <string name="free_ram">RAM disponibile: </string>
+  <string name="free_ram">RAM disponibile:\u0020</string>
+  <!-- Path data for Solid battery -->
+  <!-- Floating action button -->
 </resources>

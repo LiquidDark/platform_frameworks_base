@@ -46,15 +46,8 @@
   <string name="quick_settings_expanded_navigation_off">Скрыть панель навигации</string>
   <string name="quick_settings_expanded_statusbar_off">Скрыть строку состояния</string>
   <string name="quick_settings_nfc_label">NFC</string>
-  <string name="accessibility_quick_settings_nfc_off">NFC выкл.</string>
   <string name="accessibility_quick_settings_nfc_on">NFC вкл</string>
-  <string name="accessibility_quick_settings_nfc_changed_off">NFC выключен</string>
-  <string name="accessibility_quick_settings_nfc_changed_on">NFC включен</string>
   <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
-  <string name="accessibility_quick_settings_heads_up_off">Всплывающие уведомления выключены</string>
-  <string name="accessibility_quick_settings_heads_up_on">Всплывающие уведомления включены</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления выключены</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающие уведомления включены</string>
   <string name="quick_settings_ambient_display_label">Активный дисплей</string>
   <string name="accessibility_quick_settings_ambient_display_off">Активный дисплей выключен</string>
   <string name="accessibility_quick_settings_ambient_display_on">Активный дисплей включен</string>
@@ -64,5 +57,6 @@
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
-  <string name="free_ram">Свободно ОЗУ: </string>
+  <!-- Path data for Solid battery -->
+  <!-- Floating action button -->
 </resources>

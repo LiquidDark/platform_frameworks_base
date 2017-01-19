@@ -55,14 +55,16 @@
   <string name="accessibility_quick_settings_heads_up_on">Wyskakujące powiadomienia wł</string>
   <string name="accessibility_quick_settings_heads_up_changed_off">Wyskakujące powiadomienia wyłączone</string>
   <string name="accessibility_quick_settings_heads_up_changed_on">Wyskakujące powiadomienia włączone</string>
-  <string name="quick_settings_ambient_display_label">Ambient Display</string>
-  <string name="accessibility_quick_settings_ambient_display_off">Ambient display wył</string>
-  <string name="accessibility_quick_settings_ambient_display_on">Ambient display wł</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient display wyłączony</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient display włączony</string>
+  <string name="quick_settings_ambient_display_label">Aktywny ekran</string>
+  <string name="accessibility_quick_settings_ambient_display_off">Aktywny ekran wył</string>
+  <string name="accessibility_quick_settings_ambient_display_on">Aktywny ekran wł</string>
+  <string name="accessibility_quick_settings_ambient_display_changed_off">Aktywny ekran wyłączony</string>
+  <string name="accessibility_quick_settings_ambient_display_changed_on">Aktywny ekran włączony</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
-  <string name="free_ram">Wolna pamięć RAM: </string>
+  <string name="free_ram">Wolna pamięć RAM:\u0020</string>
+  <!-- Path data for Solid battery -->
+  <!-- Floating action button -->
 </resources>

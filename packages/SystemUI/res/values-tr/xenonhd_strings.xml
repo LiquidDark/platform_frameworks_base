@@ -46,15 +46,15 @@
   <string name="quick_settings_expanded_navigation_off">Gezinti çubuğu gizle</string>
   <string name="quick_settings_expanded_statusbar_off">Durum çubuğunu gizle</string>
   <string name="quick_settings_nfc_label">NFC (Yakın Alan İletişimi)</string>
-  <string name="accessibility_quick_settings_nfc_off">NFC kapalı.</string>
+  <string name="accessibility_quick_settings_nfc_off">NFC kapalı</string>
   <string name="accessibility_quick_settings_nfc_on">NFC açık</string>
-  <string name="accessibility_quick_settings_nfc_changed_off">NFC kapatıldı.</string>
-  <string name="accessibility_quick_settings_nfc_changed_on">NFC açıldı.</string>
+  <string name="accessibility_quick_settings_nfc_changed_off">NFC kapatıldı</string>
+  <string name="accessibility_quick_settings_nfc_changed_on">NFC açıldı</string>
   <string name="quick_settings_heads_up_label">Üst bildirim</string>
-  <string name="accessibility_quick_settings_heads_up_off">Üst bildirimleri kapat.</string>
-  <string name="accessibility_quick_settings_heads_up_on">Üst bildirimleri aç.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Üst bildirimleri kapatıldı.</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Üst bildirimleri açıldı.</string>
+  <string name="accessibility_quick_settings_heads_up_off">Bildirim pencereleri kapalı</string>
+  <string name="accessibility_quick_settings_heads_up_on">Bildirim pencereleri açık</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Bildirim pencereleri kapatıldı</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Bildirim pencereleri açıldı</string>
   <string name="quick_settings_ambient_display_label">Ambient gösterimi</string>
   <string name="accessibility_quick_settings_ambient_display_off">Ambient gösterimi kapalı</string>
   <string name="accessibility_quick_settings_ambient_display_on">Ambient gösterimi açık</string>
@@ -64,5 +64,7 @@
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
-  <string name="free_ram">Boş Bellek: </string>
+  <string name="free_ram">Boş Hafıza:\u0020</string>
+  <!-- Path data for Solid battery -->
+  <!-- Floating action button -->
 </resources>
