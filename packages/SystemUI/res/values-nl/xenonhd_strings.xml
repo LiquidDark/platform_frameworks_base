@@ -30,7 +30,6 @@
   <string name="accessibility_quick_settings_sync_changed_off">Sync is uitgeschakeld</string>
   <string name="accessibility_quick_settings_sync_changed_on">Sync is ingeschakeld</string>
   <string name="quick_settings_reboot_label">Opnieuw starten</string>
-  <string name="quick_settings_reboot_recovery_label">Recovery</string>
   <string name="accessibility_quick_settings_usb_tether_off">Usb tethering uit</string>
   <string name="accessibility_quick_settings_usb_tether_on">USB tethering aan</string>
   <string name="accessibility_quick_settings_usb_tether_changed_off">USB tethering uitgeschakeld</string>
@@ -45,7 +44,6 @@
   <string name="accessibility_quick_settings_caffeine_on">Cafeïne aan</string>
   <string name="quick_settings_expanded_navigation_off">Verberg navbar</string>
   <string name="quick_settings_expanded_statusbar_off">Statusbalk verbergen</string>
-  <string name="quick_settings_nfc_label">NFC</string>
   <string name="quick_settings_heads_up_label">Heads Up</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in

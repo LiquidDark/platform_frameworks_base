@@ -19,7 +19,6 @@
   <!-- Quick Settings tiles -->
   <string name="quick_settings_expanded_desktop_label">Erweiterter Desktop</string>
   <string name="quick_settings_expanded_desktop">Erweitert</string>
-  <string name="quick_settings_expanded_desktop_off">Normal</string>
   <string name="quick_settings_screenshot_label">Bildschirmfoto</string>
   <string name="quick_settings_adb_network">ADB-Netzwerk</string>
   <string name="quick_settings_network_adb_enabled_label">Aktiviert</string>
@@ -30,7 +29,6 @@
   <string name="accessibility_quick_settings_sync_changed_off">Synchronisation ausgeschaltet</string>
   <string name="accessibility_quick_settings_sync_changed_on">Synchronisation eingeschaltet</string>
   <string name="quick_settings_reboot_label">Neustart</string>
-  <string name="quick_settings_reboot_recovery_label">Recovery</string>
   <string name="accessibility_quick_settings_usb_tether_off">USB-Tethering aus</string>
   <string name="accessibility_quick_settings_usb_tether_on">USB-Tethering an</string>
   <string name="accessibility_quick_settings_usb_tether_changed_off">USB-Tethering ausgeschaltet</string>
@@ -45,9 +43,15 @@
   <string name="accessibility_quick_settings_caffeine_on">Koffein eingeschaltet</string>
   <string name="quick_settings_expanded_navigation_off">Navigationsleiste ausblenden</string>
   <string name="quick_settings_expanded_statusbar_off">Statusleiste ausblenden</string>
-  <string name="quick_settings_nfc_label">NFC</string>
+  <string name="accessibility_quick_settings_nfc_off">NFC aus</string>
   <string name="accessibility_quick_settings_nfc_on">NFC An</string>
+  <string name="accessibility_quick_settings_nfc_changed_off">NFC ausgeschaltet</string>
+  <string name="accessibility_quick_settings_nfc_changed_on">NFC eingeschaltet</string>
   <string name="quick_settings_heads_up_label">Pop-Up</string>
+  <string name="accessibility_quick_settings_heads_up_off">Heads Up-Benachrichtigungen aus</string>
+  <string name="accessibility_quick_settings_heads_up_on">Heads Up-Benachrichtigungen an</string>
+  <string name="accessibility_quick_settings_heads_up_changed_off">Heads Up-Benachrichtigungen ausgeschaltet</string>
+  <string name="accessibility_quick_settings_heads_up_changed_on">Heads Up-Benachrichtigungen eingeschaltet</string>
   <string name="quick_settings_ambient_display_label">Inaktivitätsbildschirm</string>
   <string name="accessibility_quick_settings_ambient_display_off">Inaktivitätsbildschirm aus</string>
   <string name="accessibility_quick_settings_ambient_display_on">Inaktivitätsbildschirm an</string>
@@ -57,6 +61,7 @@
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
+  <string name="free_ram">Freier Speicher:\u0020</string>
   <!-- Path data for Solid battery -->
   <!-- Floating action button -->
 </resources>

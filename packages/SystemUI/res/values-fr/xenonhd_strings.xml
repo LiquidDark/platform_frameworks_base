@@ -40,12 +40,10 @@
   <string name="quick_settings_music_play">Lire</string>
   <string name="quick_settings_music_pause">Mettre en pause</string>
   <string name="quick_settings_ime_tile_label">Méthode de saisie</string>
-  <string name="quick_settings_caffeine_label">Caffeine</string>
   <string name="accessibility_quick_settings_caffeine_off">Caféine désactivée</string>
   <string name="accessibility_quick_settings_caffeine_on">Caféine activée</string>
   <string name="quick_settings_expanded_navigation_off">Masquer la barre de navigation</string>
   <string name="quick_settings_expanded_statusbar_off">Masquer la barre d\'état</string>
-  <string name="quick_settings_nfc_label">NFC</string>
   <string name="accessibility_quick_settings_nfc_off">NFC désactivé</string>
   <string name="accessibility_quick_settings_nfc_on">NFC activé</string>
   <string name="accessibility_quick_settings_nfc_changed_off">NFC désactivé</string>
@@ -55,7 +53,6 @@
   <string name="accessibility_quick_settings_heads_up_on">Notifications flottantes activées</string>
   <string name="accessibility_quick_settings_heads_up_changed_off">Notifications flottantes désactivées</string>
   <string name="accessibility_quick_settings_heads_up_changed_on">Notifications flottantes activées</string>
-  <string name="quick_settings_ambient_display_label">Ambient display</string>
   <string name="accessibility_quick_settings_ambient_display_off">Ambient display désactivé</string>
   <string name="accessibility_quick_settings_ambient_display_on">Ambient display activé</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient display desactivé</string>
