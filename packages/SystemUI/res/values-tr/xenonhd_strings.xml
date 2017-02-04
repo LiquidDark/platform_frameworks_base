@@ -19,6 +19,7 @@
   <!-- Quick Settings tiles -->
   <string name="quick_settings_expanded_desktop_label">Genişletilmiş masaüstü</string>
   <string name="quick_settings_expanded_desktop">Genişletilmiş</string>
+  <string name="quick_settings_expanded_desktop_off">Normal</string>
   <string name="quick_settings_screenshot_label">Ekran Görüntüsü</string>
   <string name="quick_settings_adb_network">ADB ağı</string>
   <string name="quick_settings_network_adb_enabled_label">Etkin</string>

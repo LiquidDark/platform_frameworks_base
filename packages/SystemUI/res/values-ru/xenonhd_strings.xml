@@ -45,6 +45,7 @@
   <string name="accessibility_quick_settings_caffeine_on">Запрет сна вкл.</string>
   <string name="quick_settings_expanded_navigation_off">Скрыть панель навигации</string>
   <string name="quick_settings_expanded_statusbar_off">Скрыть строку состояния</string>
+  <string name="quick_settings_nfc_label">NFC</string>
   <string name="accessibility_quick_settings_nfc_off">NFC выкл</string>
   <string name="accessibility_quick_settings_nfc_on">NFC вкл</string>
   <string name="accessibility_quick_settings_nfc_changed_off">NFC выключен</string>
