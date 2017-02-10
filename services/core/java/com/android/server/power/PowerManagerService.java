@@ -186,6 +186,12 @@ public final class PowerManagerService extends SystemService
     // Default setting for double tap to wake.
     private static final int DEFAULT_DOUBLE_TAP_TO_WAKE = 0;
 
+	// Power feature to Enable High Brightness Mode
+    private static final int POWER_FEATURE_HIGH_BRIGHTNESS_MODE = 1;
+
+    // Default setting for High Brightness Mode.
+    private static final int DEFAULT_HIGH_BRIGHTNESS_MODE = 0;
+
     /** Constants for {@link #shutdownOrRebootInternal} */
     @Retention(RetentionPolicy.SOURCE)
     @IntDef({HALT_MODE_SHUTDOWN, HALT_MODE_REBOOT, HALT_MODE_REBOOT_SAFE_MODE})
@@ -412,6 +418,9 @@ public final class PowerManagerService extends SystemService
     // Whether device supports double tap to wake.
     private boolean mSupportsDoubleTapWakeConfig;
 
+	// Whether device supports High Brightness Mode.
+    private boolean mSupportsHighBrightnessModeConfig;
+
     // The screen off timeout setting value in milliseconds.
     private int mScreenOffTimeoutSetting;
 
@@ -532,6 +541,9 @@ public final class PowerManagerService extends SystemService
     // True if double tap to wake is enabled
     private boolean mDoubleTapWakeEnabled;
 
+	// True if High Brightness Mode is enabled
+    private boolean mHighBrightnessModeEnabled;
+
     private final ArrayList<PowerManagerInternal.LowPowerModeListener> mLowPowerModeListeners
             = new ArrayList<PowerManagerInternal.LowPowerModeListener>();
 
@@ -587,6 +599,7 @@ public final class PowerManagerService extends SystemService
             nativeSetAutoSuspend(false);
             nativeSetInteractive(true);
             nativeSetFeature(POWER_FEATURE_DOUBLE_TAP_TO_WAKE, 0);
+			nativeSetFeature(POWER_FEATURE_HIGH_BRIGHTNESS_MODE,0);
         }
     }
 
@@ -711,6 +724,9 @@ public final class PowerManagerService extends SystemService
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                     Settings.Secure.DOUBLE_TAP_TO_WAKE),
                     false, mSettingsObserver, UserHandle.USER_ALL);
+			resolver.registerContentObserver(Settings.Secure.getUriFor(
+                    Settings.Secure.HIGH_BRIGHTNESS_MODE),
+                    false, mSettingsObserver, UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                     Secure.BRIGHTNESS_USE_TWILIGHT),
                     false, mSettingsObserver, UserHandle.USER_ALL);
@@ -807,6 +823,8 @@ public final class PowerManagerService extends SystemService
                 com.android.internal.R.fraction.config_maximumScreenDimRatio, 1, 1);
         mSupportsDoubleTapWakeConfig = resources.getBoolean(
                 com.android.internal.R.bool.config_supportDoubleTapWake);
+		mSupportsHighBrightnessModeConfig = resources.getBoolean(
+                com.android.internal.R.bool.config_supportHighBrightness);
         mProximityWakeSupported = resources.getBoolean(
                 org.cyanogenmod.platform.internal.R.bool.config_proximityCheckOnWake);
         mProximityWakeEnabledByDefaultConfig = resources.getBoolean(
@@ -855,6 +873,16 @@ public final class PowerManagerService extends SystemService
             if (doubleTapWakeEnabled != mDoubleTapWakeEnabled) {
                 mDoubleTapWakeEnabled = doubleTapWakeEnabled;
                 nativeSetFeature(POWER_FEATURE_DOUBLE_TAP_TO_WAKE, mDoubleTapWakeEnabled ? 1 : 0);
+            }
+        }
+
+		if (mSupportsHighBrightnessModeConfig) {
+            boolean highBrightnessModeEnabled = Settings.Secure.getIntForUser(resolver,
+                    Settings.Secure.HIGH_BRIGHTNESS_MODE, DEFAULT_HIGH_BRIGHTNESS_MODE,
+                            UserHandle.USER_CURRENT) != 0;
+            if (highBrightnessModeEnabled != mHighBrightnessModeEnabled) {
+                mHighBrightnessModeEnabled = highBrightnessModeEnabled;
+                nativeSetFeature(POWER_FEATURE_HIGH_BRIGHTNESS_MODE, mHighBrightnessModeEnabled ? 1 : 0);
             }
         }
 
@@ -3104,6 +3132,7 @@ public final class PowerManagerService extends SystemService
             pw.println("  mScreenBrightnessSettingMaximum=" + mScreenBrightnessSettingMaximum);
             pw.println("  mScreenBrightnessSettingDefault=" + mScreenBrightnessSettingDefault);
             pw.println("  mDoubleTapWakeEnabled=" + mDoubleTapWakeEnabled);
+			pw.println("  mHighBrightnessModeEnabled=" + mHighBrightnessModeEnabled);
 
             final int sleepTimeout = getSleepTimeoutLocked();
             final int screenOffTimeout = getScreenOffTimeoutLocked(sleepTimeout);

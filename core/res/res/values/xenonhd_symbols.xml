@@ -48,4 +48,7 @@
 
   <java-symbol type="layout" name="single_hand_window" />
 
+  <!-- High Brightness Mode -->
+  <java-symbol type="bool" name="config_supportHighBrightness" />
+
   </resources>
