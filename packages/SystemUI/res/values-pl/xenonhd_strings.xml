@@ -17,7 +17,7 @@
   <!-- Status bar items tuner -->
   <string name="statusbar_icons_blacklist">Ikony paska stanu</string>
   <!-- Quick Settings tiles -->
-  <string name="quick_settings_expanded_desktop_label">Rozszerzony pulpit</string>
+  <string name="quick_settings_expanded_desktop_label">Tryb rozszerzonego pulpitu</string>
   <string name="quick_settings_expanded_desktop">Rozszerzony</string>
   <string name="quick_settings_expanded_desktop_off">Normalny</string>
   <string name="quick_settings_screenshot_label">Zrzut ekranu</string>
