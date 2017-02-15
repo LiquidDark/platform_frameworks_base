@@ -2217,6 +2217,6 @@ message MetricsEvent {
     // END OF AOSP CONSTANTS
 
     // Quick setting tiles
-    QUICK_SETTINGS = 496;
+    QUICK_SETTINGS = 500;
   }
 }
