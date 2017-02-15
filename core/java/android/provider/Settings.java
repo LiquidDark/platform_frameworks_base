@@ -2737,6 +2737,12 @@ public final class Settings {
         public static final String HIDE_LOCKSCREEN_ALARM = "hide_lockscreen_alarm";
 
         /**
+         * Show/Hide Emergency Button on Lockscreen
+         * @hide
+         */
+        public static final String SHOW_EMERGENCY_BUTTON = "show_emergency_button";
+
+        /**
          * A formatted string of the next alarm that is set, or the empty string
          * if there is no alarm set.
          *
