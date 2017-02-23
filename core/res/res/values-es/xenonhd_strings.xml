@@ -16,5 +16,6 @@
      limitations under the License. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Singlehanded Mode -->
-  <string name="singlehandmode_click_hint_message">Touch outside the screen to exit mini screen view</string>
+  <string name="singlehandmode_click_hint_message">Toca fuera de la pantalla para salir de la vista de pantalla mini</string>
+  <string name="singlehandmode_slide_hint_message">Deslice el dedo por la barra de navegación para cambiar entre las vistas de pantalla estándar y mini</string>
 </resources>
