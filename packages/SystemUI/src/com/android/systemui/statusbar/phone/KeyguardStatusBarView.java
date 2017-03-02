@@ -89,7 +89,6 @@ public class KeyguardStatusBarView extends RelativeLayout
     private TextView mCarrierLabel;
     private int mShowCarrierLabel;
 
-    private int mCarrierLabelFontStyle = FONT_NORMAL;
     public static final int FONT_NORMAL = 0;
     public static final int FONT_ITALIC = 1;
     public static final int FONT_BOLD = 2;
@@ -115,6 +114,8 @@ public class KeyguardStatusBarView extends RelativeLayout
     public static final int FONT_NOTOSERIF_ITALIC = 22;
     public static final int FONT_NOTOSERIF_BOLD = 23;
     public static final int FONT_NOTOSERIF_BOLD_ITALIC = 24;
+    private int mCarrierLabelFontStyle = FONT_NORMAL;
+    private int mCarrierFontSize = 10;
 
     public KeyguardStatusBarView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -174,10 +175,7 @@ public class KeyguardStatusBarView extends RelativeLayout
                 getResources().getDimensionPixelSize(R.dimen.system_icons_keyguard_padding_end),
                 mSystemIconsSuperContainer.getPaddingBottom());
 
-        // Respect font size setting.
-        mCarrierLabel.setTextSize(TypedValue.COMPLEX_UNIT_PX,
-                getResources().getDimensionPixelSize(com.android.internal.R.dimen.text_size_small_material));
-
+        updateSize();
         lp = (MarginLayoutParams) mSystemIconsContainer.getLayoutParams();
         lp.height = getResources().getDimensionPixelSize(
                 R.dimen.status_bar_height);
@@ -207,6 +205,12 @@ public class KeyguardStatusBarView extends RelativeLayout
         lp.height =  getResources().getDimensionPixelSize(
                 R.dimen.status_bar_header_height_keyguard);
         setLayoutParams(lp);
+    }
+
+    private void updateSize() {
+        mCarrierFontSize = Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.STATUS_BAR_CARRIER_FONT_SIZE, 10, UserHandle.USER_CURRENT);
+        mCarrierLabel.setTextSize(mCarrierFontSize);
     }
 
     private void loadDimens() {
