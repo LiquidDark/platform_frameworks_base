@@ -67,7 +67,6 @@ public class KeyguardStatusBarView extends RelativeLayout
     private boolean mKeyguardUserSwitcherShowing;
     private boolean mBatteryListening;
 
-    private TextView mCarrierLabel;
     private View mSystemIconsSuperContainer;
     private MultiUserSwitch mMultiUserSwitch;
     private ImageView mMultiUserAvatar;
@@ -86,9 +85,24 @@ public class KeyguardStatusBarView extends RelativeLayout
 
     private boolean mHideContents;
 
+    private TextView mCarrierLabel;
+    private int mShowCarrierLabel;
+
     public KeyguardStatusBarView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        showStatusBarCarrier();
     }
+
+    private void showStatusBarCarrier() {
+        mShowCarrierLabel = Settings.System.getIntForUser(getContext().getContentResolver(),
+                Settings.System.STATUS_BAR_SHOW_CARRIER, 1, UserHandle.USER_CURRENT);
+    }
+
+    private ContentObserver mObserver = new ContentObserver(new Handler()) {
+        public void onChange(boolean selfChange, Uri uri) {
+            showStatusBarCarrier();
+        }
+    };
 
     @Override
     protected void onFinishInflate() {
@@ -195,6 +209,16 @@ public class KeyguardStatusBarView extends RelativeLayout
         } else {
             mBatteryLevel.setVisibility(
                     mBatteryCharging || mShowBatteryText ? View.VISIBLE : View.GONE);
+        }
+
+        if (mCarrierLabel != null) {
+            if (mShowCarrierLabel == 1) {
+                mCarrierLabel.setVisibility(View.VISIBLE);
+            } else if (mShowCarrierLabel == 3) {
+                mCarrierLabel.setVisibility(View.VISIBLE);
+            } else {
+                mCarrierLabel.setVisibility(View.GONE);
+            }
         }
     }
 
@@ -455,5 +479,12 @@ public class KeyguardStatusBarView extends RelativeLayout
             }
             set.start();
         }
+    }
+
+    @Override
+    public void onAttachedToWindow() {
+        super.onAttachedToWindow();
+        getContext().getContentResolver().registerContentObserver(Settings.System.getUriFor(
+                "status_bar_show_carrier"), false, mObserver);
     }
 }

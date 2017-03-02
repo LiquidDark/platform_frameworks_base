@@ -29,7 +29,6 @@ import android.net.ConnectivityManager;
 import android.util.Log;
 
 import java.util.List;
-
 import java.util.Locale;
 
 public class XenonUtils {
@@ -44,5 +43,16 @@ public class XenonUtils {
         } catch (PackageManager.NameNotFoundException e) {
         }
         return mluckyPatcherInstalled;
+    }
+
+    public static boolean isWifiOnly(Context context) {
+        ConnectivityManager cm = (ConnectivityManager)context.getSystemService(
+                Context.CONNECTIVITY_SERVICE);
+        return (cm.isNetworkSupported(ConnectivityManager.TYPE_MOBILE) == false);
+    }
+
+    public static boolean isChineseLanguage() {
+       return Resources.getSystem().getConfiguration().locale.getLanguage().startsWith(
+               Locale.CHINESE.getLanguage());
     }
 }
