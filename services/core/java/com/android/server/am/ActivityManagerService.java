@@ -13635,6 +13635,11 @@ public final class ActivityManagerService extends ActivityManagerNative
                 mUiHandler.obtainMessage(SHOW_LUCKYPATCHER_CARNT_UI_MSG).sendToTarget();
             }
 
+            if (XenonUtils.isLuckyPatcherInstalled(mContext)) {
+                Slog.e(TAG, "LuckyPatcher is installed, so annoy the user");
+                mUiHandler.obtainMessage(SHOW_LUCKYPATCHER_CARNT_UI_MSG).sendToTarget();
+            }
+
             long ident = Binder.clearCallingIdentity();
             try {
                 Intent intent = new Intent(Intent.ACTION_USER_STARTED);
