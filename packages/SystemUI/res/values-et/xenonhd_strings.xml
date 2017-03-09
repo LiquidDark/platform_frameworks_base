@@ -66,4 +66,8 @@
   <!-- Free RAM -->
   <string name="free_ram">Vaba RAM:\u0020</string>
   <!-- Path data for Solid battery -->
+  <!-- High Brightness Mode Tile -->
+  <string name="quick_settings_high_brightness">Kõrge heledus</string>
+  <string name="high_brightness_warning">Kõrge heleduse režiim aktiveeritud, praegused heleduse seaded alistatakse</string>
+  <!-- VoLTE icon switch -->
 </resources>

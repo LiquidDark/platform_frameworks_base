@@ -66,4 +66,6 @@
   <!-- Free RAM -->
   <string name="free_ram">Boş Bellek:\u0020</string>
   <!-- Path data for Solid battery -->
+  <!-- High Brightness Mode Tile -->
+  <!-- VoLTE icon switch -->
 </resources>

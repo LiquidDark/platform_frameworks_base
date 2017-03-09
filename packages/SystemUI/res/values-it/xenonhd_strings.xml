@@ -60,10 +60,19 @@
   <string name="accessibility_quick_settings_ambient_display_on">Ambient display attivo</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient display disattivato</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient Display attivato</string>
+  <string name="quick_settings_sound_label">Suono</string>
+  <string name="quick_settings_sound_ring">Suoneria</string>
+  <string name="quick_settings_sound_vibrate">Vibrazione</string>
+  <string name="quick_settings_sound_silent">Silenzioso</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
   <string name="free_ram">RAM disponibile:\u0020</string>
   <!-- Path data for Solid battery -->
+  <!-- High Brightness Mode Tile -->
+  <string name="quick_settings_high_brightness">Alta Luminosità</string>
+  <string name="high_brightness_warning">Modalità alta luminosità attivata, impostazioni di luminosità correnti sovrascritte</string>
+  <!-- VoLTE icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
 </resources>
