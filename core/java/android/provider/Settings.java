@@ -2752,6 +2752,13 @@ public final class Settings {
         public static final String LOCK_DATE_FONTS = "lock_date_fonts";
         
         /**
+         * Change fonts for the system lockscreen clock widget
+         *
+         * @hide
+         */
+        public static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
+
+        /**
          * Change font size for the system lockscreen clock widget
          *
          * @hide
