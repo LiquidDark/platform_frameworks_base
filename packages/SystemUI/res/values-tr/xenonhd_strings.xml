@@ -60,6 +60,10 @@
   <string name="accessibility_quick_settings_ambient_display_on">Ambient gösterimi açık</string>
   <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient gösterimi kapatıldı</string>
   <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient gösterimi açıldı</string>
+  <string name="quick_settings_sound_label">Ses</string>
+  <string name="quick_settings_sound_ring">Zil sesi</string>
+  <string name="quick_settings_sound_vibrate">Titreşim</string>
+  <string name="quick_settings_sound_silent">Sessiz</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
@@ -67,5 +71,6 @@
   <string name="free_ram">Boş Bellek:\u0020</string>
   <!-- Path data for Solid battery -->
   <!-- High Brightness Mode Tile -->
+  <string name="quick_settings_high_brightness">Yüksek parlaklık</string>
   <!-- VoLTE icon switch -->
 </resources>

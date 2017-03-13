@@ -15,6 +15,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- LuckyPatcher carnt dialog -->
   <string name="lucky_patcher_installed_title">LuckyPatcher wykryty!!!</string>
-  <string name="lucky_patcher_installed_message">Niniejszym dobrowolnie przyznaję się do bycia złodziejem i piratem. Kocham kraść pieniądze od ciężkopracujących deweloperów i chwalić się tym.</string>
+  <string name="lucky_patcher_installed_message">Niniejszym dobrowolnie przyznaję się do bycia złodziejem i piratem. Kocham kraść pieniądze od ciężko pracujących deweloperów i chwalić się tym.</string>
   <string name="lucky_patcher_admit">Przyznaję się</string>
 </resources>

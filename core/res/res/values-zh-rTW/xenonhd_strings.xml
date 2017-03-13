@@ -14,4 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- LuckyPatcher carnt dialog -->
+  <string name="lucky_patcher_installed_title">發現 幸運破解器 ！！！</string>
+  <string name="lucky_patcher_installed_message">我願意承認，我不是一個小偷和海盜。我喜歡從勤奮的開發者那裡取得金錢並自誇。</string>
+  <string name="lucky_patcher_admit">我承認</string>
 </resources>
