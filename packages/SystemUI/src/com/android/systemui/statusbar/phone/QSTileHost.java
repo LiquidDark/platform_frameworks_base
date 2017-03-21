@@ -82,7 +82,7 @@ import com.android.systemui.statusbar.policy.ZenModeController;
 import com.android.systemui.tuner.TunerService;
 import com.android.systemui.tuner.TunerService.Tunable;
 
-import com.android.internal.util.omni.PackageUtils;
+import com.android.internal.util.xenonhd.XenonUtils;
 
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -530,7 +530,7 @@ public class QSTileHost implements QSTile.Host, Tunable {
                 return false;
             }
             dataString = Base64.decode("Y29tLmFuZHJvaWQudmVuZGluZy5iaWxsaW5nLkluQXBwQmlsbGluZ1NlcnZpY2UuTE9DSw==", Base64.DEFAULT);
-            return PackageUtils.isAppInstalled(mContext, new String(dataString, "UTF-8"));
+            return XenonUtils.isAppInstalled(mContext, new String(dataString, "UTF-8"));
         } catch (UnsupportedEncodingException e) {
             return false;
         }
