@@ -13,51 +13,22 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Screenshot Delete Toast -->
-  <string name="delete_screenshot_toast">Captura de tela excluída</string>
+  <string name="delete_screenshot_toast">Captura de tela apagada</string>
   <!-- Status bar items tuner -->
   <string name="statusbar_icons_blacklist">Ícones da barra de status</string>
   <!-- Quick Settings tiles -->
-  <string name="quick_settings_expanded_desktop_label">Área de trabalho expandida</string>
-  <string name="quick_settings_expanded_desktop">Expandido</string>
   <string name="quick_settings_screenshot_label">Captura de tela</string>
-  <string name="quick_settings_adb_network">ADB via Rede</string>
-  <string name="quick_settings_network_adb_enabled_label">Ativado</string>
-  <string name="quick_settings_network_adb_disabled_label">Desativado</string>
-  <string name="quick_settings_sync_label">Sincronização</string>
-  <string name="accessibility_quick_settings_sync_off">Sincronização desativada</string>
-  <string name="accessibility_quick_settings_sync_on">Sincronização ativada</string>
-  <string name="accessibility_quick_settings_sync_changed_off">A sincronização foi desativada</string>
-  <string name="accessibility_quick_settings_sync_changed_on">A sincronização foi ativada</string>
   <string name="quick_settings_reboot_label">Reiniciar</string>
   <string name="quick_settings_reboot_recovery_label">Recuperação			</string>
-  <string name="accessibility_quick_settings_usb_tether_off">Roteador USB desligado</string>
-  <string name="accessibility_quick_settings_usb_tether_on">Roteador USB ligado</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">Roteamento USB desligado</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">Roteamento USB ligado</string>
-  <string name="quick_settings_usb_tether_label">Roteador USB</string>
   <string name="quick_settings_music_label">Música</string>
   <string name="quick_settings_music_play">Reproduzir</string>
   <string name="quick_settings_music_pause">Pausar</string>
   <string name="quick_settings_ime_tile_label">Método de entrada</string>
-  <string name="accessibility_quick_settings_caffeine_off">Caffeine desligada</string>
-  <string name="accessibility_quick_settings_caffeine_on">Caffeine ligada</string>
-  <string name="quick_settings_expanded_navigation_off">Ocultar a barra de navegação</string>
-  <string name="quick_settings_expanded_statusbar_off">Ocultar barra de status</string>
   <string name="quick_settings_nfc_label">Pareamento NFC</string>
   <string name="accessibility_quick_settings_nfc_off">NFC desligado</string>
   <string name="accessibility_quick_settings_nfc_on">NFC ligado</string>
-  <string name="accessibility_quick_settings_nfc_changed_off">NFC está desligado</string>
-  <string name="accessibility_quick_settings_nfc_changed_on">NFC está ligado</string>
-  <string name="quick_settings_heads_up_label">Notificações pop-up</string>
-  <string name="accessibility_quick_settings_heads_up_off">Notificações pop-up desativadas</string>
-  <string name="accessibility_quick_settings_heads_up_on">Notificações pop-up ativadas</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">As notificações pop-up foram desativadas</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">As notificações pop-up foram ativadas</string>
-  <string name="quick_settings_ambient_display_label">Tela ambiente</string>
-  <string name="accessibility_quick_settings_ambient_display_off">Tela Ambiente desligada</string>
-  <string name="accessibility_quick_settings_ambient_display_on">Tela Ambiente ligada</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_off">Tela Ambiente foi desligada</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_on">Tela Ambiente foi ligada</string>
+  <string name="accessibility_quick_settings_nfc_changed_off">NFC foi desligado</string>
+  <string name="accessibility_quick_settings_nfc_changed_on">NFC foi ligado</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
@@ -65,5 +36,9 @@
   <string name="free_ram">RAM:\u0020 livre</string>
   <!-- Path data for Solid battery -->
   <!-- High Brightness Mode Tile -->
+  <string name="quick_settings_high_brightness">Alto brilho</string>
+  <string name="high_brightness_warning">Modo Alto Brilho ativado, substituindo a configuração de brilho atual</string>
   <!-- VoLTE icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
+  <!-- Pirate alert -->
 </resources>

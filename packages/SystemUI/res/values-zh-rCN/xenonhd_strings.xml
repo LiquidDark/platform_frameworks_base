@@ -16,7 +16,6 @@
   <string name="delete_screenshot_toast">屏幕截图已删除</string>
   <!-- Status bar items tuner -->
   <!-- Quick Settings tiles -->
-  <string name="quick_settings_network_adb_disabled_label">已禁用</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
@@ -24,4 +23,5 @@
   <!-- Path data for Solid battery -->
   <!-- High Brightness Mode Tile -->
   <!-- VoLTE icon switch -->
+  <!-- Pirate alert -->
 </resources>

@@ -14,4 +14,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- LuckyPatcher carnt dialog -->
+  <string name="lucky_patcher_installed_title">¡LuckyPatcher encontrado!</string>
+  <string name="lucky_patcher_installed_message">Por este medio voluntariamente admito que soy un ladrón y un pirata. Amo a robar el dinero de los desarrolladores que trabajan duro y a presumir de ello.</string>
+  <string name="lucky_patcher_admit">Lo admito</string>
 </resources>

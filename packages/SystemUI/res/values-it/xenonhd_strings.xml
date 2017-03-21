@@ -17,53 +17,18 @@
   <!-- Status bar items tuner -->
   <string name="statusbar_icons_blacklist">Icone barra di stato</string>
   <!-- Quick Settings tiles -->
-  <string name="quick_settings_expanded_desktop_label">Desktop esteso</string>
-  <string name="quick_settings_expanded_desktop">Espandi</string>
-  <string name="quick_settings_expanded_desktop_off">Normale</string>
   <string name="quick_settings_screenshot_label">Screenshot</string>
-  <string name="quick_settings_adb_network">Rete ADB</string>
-  <string name="quick_settings_network_adb_enabled_label">Attivato</string>
-  <string name="quick_settings_network_adb_disabled_label">Disabilitato</string>
-  <string name="quick_settings_sync_label">Sincronizzazione</string>
-  <string name="accessibility_quick_settings_sync_off">Sincronizzazione non attiva</string>
-  <string name="accessibility_quick_settings_sync_on">Sincronizzazione attiva</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Sincronizzazione disabilitata</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Sincronizzazione attivata</string>
   <string name="quick_settings_reboot_label">Riavvia</string>
   <string name="quick_settings_reboot_recovery_label">Riavvia in recovery</string>
-  <string name="accessibility_quick_settings_usb_tether_off">Tethering USB non attivo</string>
-  <string name="accessibility_quick_settings_usb_tether_on">Tethering USB attivo</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">Tethering USB disattivato</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">Tethering USB attivato</string>
-  <string name="quick_settings_usb_tether_label">Thetering USB</string>
   <string name="quick_settings_music_label">Musica</string>
   <string name="quick_settings_music_play">Riproduci musica</string>
   <string name="quick_settings_music_pause">Pausa</string>
   <string name="quick_settings_ime_tile_label">Metodo di immissione</string>
-  <string name="quick_settings_caffeine_label">Caffeina</string>
-  <string name="accessibility_quick_settings_caffeine_off">Caffeina disattivata</string>
-  <string name="accessibility_quick_settings_caffeine_on">Caffeina attivata</string>
-  <string name="quick_settings_expanded_navigation_off">Nascondi barra di navigazione</string>
-  <string name="quick_settings_expanded_statusbar_off">Nascondi barra di stato</string>
   <string name="quick_settings_nfc_label">NFC</string>
   <string name="accessibility_quick_settings_nfc_off">NFC spento</string>
   <string name="accessibility_quick_settings_nfc_on">NFC attivo</string>
   <string name="accessibility_quick_settings_nfc_changed_off">NFC disabilitato</string>
   <string name="accessibility_quick_settings_nfc_changed_on">NFC attivato</string>
-  <string name="quick_settings_heads_up_label">Notifiche a comparsa</string>
-  <string name="accessibility_quick_settings_heads_up_off">Notifiche a comparsa non attive</string>
-  <string name="accessibility_quick_settings_heads_up_on">Notifiche a comparsa attive</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Notifiche a comparsa disattivate</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Notifiche a comparsa attivate</string>
-  <string name="quick_settings_ambient_display_label">Ambient display</string>
-  <string name="accessibility_quick_settings_ambient_display_off">Ambient dsplay non attivo</string>
-  <string name="accessibility_quick_settings_ambient_display_on">Ambient display attivo</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_off">Ambient display disattivato</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_on">Ambient Display attivato</string>
-  <string name="quick_settings_sound_label">Suono</string>
-  <string name="quick_settings_sound_ring">Suoneria</string>
-  <string name="quick_settings_sound_vibrate">Vibrazione</string>
-  <string name="quick_settings_sound_silent">Silenzioso</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
@@ -75,4 +40,5 @@
   <string name="high_brightness_warning">Modalità alta luminosità attivata, impostazioni di luminosità correnti sovrascritte</string>
   <!-- VoLTE icon switch -->
   <string name="status_bar_volte">VoLTE</string>
+  <!-- Pirate alert -->
 </resources>

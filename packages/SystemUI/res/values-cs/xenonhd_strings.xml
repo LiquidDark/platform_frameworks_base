@@ -17,53 +17,18 @@
   <!-- Status bar items tuner -->
   <string name="statusbar_icons_blacklist">Ikony stavového řádku</string>
   <!-- Quick Settings tiles -->
-  <string name="quick_settings_expanded_desktop_label">Režim rozšířené plochy</string>
-  <string name="quick_settings_expanded_desktop">Rozšířená</string>
-  <string name="quick_settings_expanded_desktop_off">Normální</string>
   <string name="quick_settings_screenshot_label">Snímek obrazovky</string>
-  <string name="quick_settings_adb_network">ADB přes síť</string>
-  <string name="quick_settings_network_adb_enabled_label">Zapnuto</string>
-  <string name="quick_settings_network_adb_disabled_label">Vypnuto</string>
-  <string name="quick_settings_sync_label">Synchronizace</string>
-  <string name="accessibility_quick_settings_sync_off">Synchronizace vypnuta</string>
-  <string name="accessibility_quick_settings_sync_on">Synchronizace zapnuta</string>
-  <string name="accessibility_quick_settings_sync_changed_off">Synchronizace vypnuta</string>
-  <string name="accessibility_quick_settings_sync_changed_on">Synchronizace zapnuta</string>
   <string name="quick_settings_reboot_label">Restartovat</string>
   <string name="quick_settings_reboot_recovery_label">Přejít do Recovery</string>
-  <string name="accessibility_quick_settings_usb_tether_off">USB Tethering je vypnutý</string>
-  <string name="accessibility_quick_settings_usb_tether_on">USB Tethering je zapnutý</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB sdílené připojení vypnuto</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB sdílené připojení zapnuto</string>
-  <string name="quick_settings_usb_tether_label">USB tethering</string>
   <string name="quick_settings_music_label">Hudba</string>
   <string name="quick_settings_music_play">Přehrát</string>
   <string name="quick_settings_music_pause">Pozastavit</string>
   <string name="quick_settings_ime_tile_label">Vstupní metoda</string>
-  <string name="quick_settings_caffeine_label">Kofein</string>
-  <string name="accessibility_quick_settings_caffeine_off">Kofein zapnut</string>
-  <string name="accessibility_quick_settings_caffeine_on">Kofein vypnut</string>
-  <string name="quick_settings_expanded_navigation_off">Skrýt navigační lištu</string>
-  <string name="quick_settings_expanded_statusbar_off">Skrýt stavový řádek</string>
   <string name="quick_settings_nfc_label">NFC</string>
   <string name="accessibility_quick_settings_nfc_off">NFC vypnuto</string>
   <string name="accessibility_quick_settings_nfc_on">NFC zapnuto</string>
   <string name="accessibility_quick_settings_nfc_changed_off">NFC vypnuto</string>
   <string name="accessibility_quick_settings_nfc_changed_on">NFC zapnuto</string>
-  <string name="quick_settings_heads_up_label">Plovoucí upozornění</string>
-  <string name="accessibility_quick_settings_heads_up_off">Plovoucí upozornění vypnuto</string>
-  <string name="accessibility_quick_settings_heads_up_on">Plovoucí upozornění zapnuto</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">Plovoucí upozornění vypnuto</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">Plovoucí upozornění zapnuto</string>
-  <string name="quick_settings_ambient_display_label">Ambientní displej</string>
-  <string name="accessibility_quick_settings_ambient_display_off">Ambientní displej vypnut</string>
-  <string name="accessibility_quick_settings_ambient_display_on">Ambientní displej zapnut</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_off">Ambientní displej vypnut</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_on">Ambientní displej zapnut</string>
-  <string name="quick_settings_sound_label">Zvuk</string>
-  <string name="quick_settings_sound_ring">Vyzvánění</string>
-  <string name="quick_settings_sound_vibrate">Vibrace</string>
-  <string name="quick_settings_sound_silent">Tichý režim</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
@@ -75,4 +40,5 @@
   <string name="high_brightness_warning">Vysoký mód jasu aktivován, nahrazuji aktuální nastavení jasu</string>
   <!-- VoLTE icon switch -->
   <string name="status_bar_volte">VoLTE</string>
+  <!-- Pirate alert -->
 </resources>

@@ -17,53 +17,18 @@
   <!-- Status bar items tuner -->
   <string name="statusbar_icons_blacklist">狀態列圖示</string>
   <!-- Quick Settings tiles -->
-  <string name="quick_settings_expanded_desktop_label">延伸桌面</string>
-  <string name="quick_settings_expanded_desktop">延伸</string>
-  <string name="quick_settings_expanded_desktop_off">一般</string>
   <string name="quick_settings_screenshot_label">螢幕截圖</string>
-  <string name="quick_settings_adb_network">網路 ADB</string>
-  <string name="quick_settings_network_adb_enabled_label">已啟用</string>
-  <string name="quick_settings_network_adb_disabled_label">已停用</string>
-  <string name="quick_settings_sync_label">同步</string>
-  <string name="accessibility_quick_settings_sync_off">關閉同步</string>
-  <string name="accessibility_quick_settings_sync_on">開啟同步</string>
-  <string name="accessibility_quick_settings_sync_changed_off">同步已關閉</string>
-  <string name="accessibility_quick_settings_sync_changed_on">同步已開啟</string>
   <string name="quick_settings_reboot_label">重新啟動</string>
   <string name="quick_settings_reboot_recovery_label">恢復模式</string>
-  <string name="accessibility_quick_settings_usb_tether_off">關閉 USB 網路共用</string>
-  <string name="accessibility_quick_settings_usb_tether_on">開啟 USB 網路共用</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_off">USB 網路共用已關閉</string>
-  <string name="accessibility_quick_settings_usb_tether_changed_on">USB 網路共用已開啟</string>
-  <string name="quick_settings_usb_tether_label">USB 網路共用</string>
   <string name="quick_settings_music_label">音樂</string>
   <string name="quick_settings_music_play">開始</string>
   <string name="quick_settings_music_pause">暫停</string>
   <string name="quick_settings_ime_tile_label">輸入法</string>
-  <string name="quick_settings_caffeine_label">暫停休眠</string>
-  <string name="accessibility_quick_settings_caffeine_off">關閉暫停休眠</string>
-  <string name="accessibility_quick_settings_caffeine_on">開啟暫停休眠</string>
-  <string name="quick_settings_expanded_navigation_off">隱藏巡覽列</string>
-  <string name="quick_settings_expanded_statusbar_off">隱藏狀態列</string>
   <string name="quick_settings_nfc_label">NFC</string>
   <string name="accessibility_quick_settings_nfc_off">NFC 關閉</string>
   <string name="accessibility_quick_settings_nfc_on">NFC 開啟</string>
   <string name="accessibility_quick_settings_nfc_changed_off">NFC 已關閉</string>
   <string name="accessibility_quick_settings_nfc_changed_on">NFC 已開啟</string>
-  <string name="quick_settings_heads_up_label">浮動通知</string>
-  <string name="accessibility_quick_settings_heads_up_off">浮動通知關閉</string>
-  <string name="accessibility_quick_settings_heads_up_on">浮動通知開啟</string>
-  <string name="accessibility_quick_settings_heads_up_changed_off">浮動通知已關閉</string>
-  <string name="accessibility_quick_settings_heads_up_changed_on">浮動通知已開啟</string>
-  <string name="quick_settings_ambient_display_label">環境顯示</string>
-  <string name="accessibility_quick_settings_ambient_display_off">環境顯示關閉</string>
-  <string name="accessibility_quick_settings_ambient_display_on">環境顯示開啟</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_off">環境顯示已關閉</string>
-  <string name="accessibility_quick_settings_ambient_display_changed_on">環境顯示已開啟</string>
-  <string name="quick_settings_sound_label">音效</string>
-  <string name="quick_settings_sound_ring">鈴聲</string>
-  <string name="quick_settings_sound_vibrate">震動</string>
-  <string name="quick_settings_sound_silent">靜音</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
@@ -75,4 +40,5 @@
   <string name="high_brightness_warning">高亮度模式已啟動，覆蓋目前亮度設定</string>
   <!-- VoLTE icon switch -->
   <string name="status_bar_volte">VoLTE</string>
+  <!-- Pirate alert -->
 </resources>
