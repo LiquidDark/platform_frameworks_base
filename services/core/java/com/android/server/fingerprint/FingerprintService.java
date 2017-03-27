@@ -27,6 +27,9 @@ import android.app.SynchronousUserSwitchObserver;
 import android.content.ComponentName;
 import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.ContentResolver;
+import android.content.res.Configuration;
+import android.database.ContentObserver;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
@@ -44,6 +47,8 @@ import android.os.ServiceManager;
 import android.os.SystemClock;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.os.Handler;
+import android.provider.Settings;
 import android.util.Slog;
 
 import com.android.internal.logging.MetricsLogger;
@@ -103,7 +108,6 @@ public class FingerprintService extends SystemService implements IBinder.DeathRe
             new ArrayList<>();
     private final AppOpsManager mAppOps;
     private static final long FAIL_LOCKOUT_TIMEOUT_MS = 30*1000;
-    private static final int MAX_FAILED_ATTEMPTS = 5;
     private static final long CANCEL_TIMEOUT_LIMIT = 3000; // max wait for onCancel() from HAL,in ms
     private final String mKeyguardPackage;
     private int mCurrentUserId = UserHandle.USER_CURRENT;
@@ -119,6 +123,8 @@ public class FingerprintService extends SystemService implements IBinder.DeathRe
     private ClientMonitor mPendingClient;
     private long mCurrentAuthenticatorId;
     private PerformanceStats mPerformanceStats;
+
+    private int MAX_FAILED_ATTEMPTS;
 
     // Normal fingerprint authentications are tracked by mPerformanceMap.
     private HashMap<Integer, PerformanceStats> mPerformanceMap
@@ -189,6 +195,9 @@ public class FingerprintService extends SystemService implements IBinder.DeathRe
         mContext.registerReceiver(mLockoutReceiver, new IntentFilter(ACTION_LOCKOUT_RESET),
                 RESET_FINGERPRINT_LOCKOUT, null /* handler */);
         mUserManager = UserManager.get(mContext);
+        MAX_FAILED_ATTEMPTS = Settings.System.getIntForUser(
+                  mContext.getContentResolver(), Settings.System.FP_MAX_FAILED_ATTEMPTS,
+                  5, mCurrentUserId);
     }
 
     @Override

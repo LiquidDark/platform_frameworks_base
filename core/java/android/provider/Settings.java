@@ -4091,6 +4091,12 @@ public final class Settings {
         public static final String SCREEN_STATE_ON_DELAY = "screen_state_on_delay";
 
         /**
+         * Maximum failed attempts for fingerprint input before showing warning
+         * @hide
+         */
+        public static final String FP_MAX_FAILED_ATTEMPTS = "fp_max_failed_attempts";
+
+        /**
          * Settings to backup. This is here so that it's in the same place as the settings
          * keys and easy to update.
          *
