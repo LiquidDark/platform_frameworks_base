@@ -136,8 +136,4 @@
   <!-- Single hand mode -->
   <string name="singlehandmode_click_hint_message">Toca fuera la pantalla pa colar del mou d\'una mano</string>
   <!-- Strings for tethered notification -->
-  <!-- Shown when the device is tethered -->
-  <string name="tethered_notification_no_device_message">Nun hai dengún preséu coneutáu</string>
-  <string name="tethered_notification_one_device_message"><xliff:g id="count">%1$s</xliff:g> preséu coneutáu</string>
-  <string name="tethered_notification_multi_device_message"><xliff:g id="count">%1$s</xliff:g> preseos coneutaos</string>
 </resources>
