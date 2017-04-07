@@ -19,7 +19,7 @@
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">Captura de pantalla</string>
   <string name="quick_settings_reboot_label">Reiniciar</string>
-  <string name="quick_settings_reboot_recovery_label">Modo Recovery</string>
+  <string name="quick_settings_reboot_recovery_label">Reiniciar en recovery</string>
   <string name="quick_settings_music_label">Música</string>
   <string name="quick_settings_music_play">Reproducir</string>
   <string name="quick_settings_music_pause">Pausar</string>
@@ -41,4 +41,6 @@
   <!-- VoLTE icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Pirate alert -->
+  <string name="pirate_label">Aaarrrggghhh</string>
+  <string name="pirate_spec">pirata</string>
 </resources>

@@ -41,4 +41,6 @@
   <!-- VoLTE icon switch -->
   <string name="status_bar_volte">VoLTE</string>
   <!-- Pirate alert -->
+  <string name="pirate_label">Aaarrrggghhh</string>
+  <string name="pirate_spec">piraat</string>
 </resources>

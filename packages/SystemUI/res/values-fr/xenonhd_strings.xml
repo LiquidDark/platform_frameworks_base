@@ -36,9 +36,11 @@
   <string name="free_ram">RAM Libre:\u0020</string>
   <!-- Path data for Solid battery -->
   <!-- High Brightness Mode Tile -->
-  <string name="quick_settings_high_brightness">Luminosité augmentée</string>
+  <string name="quick_settings_high_brightness">Luminosité maximale</string>
   <string name="high_brightness_warning">Mode de haute luminosité activée, étant prioritaire sur les réglages de luminosité actuels</string>
   <!-- VoLTE icon switch -->
   <string name="status_bar_volte">VoLTE, voix sur 4G</string>
   <!-- Pirate alert -->
+  <string name="pirate_label">Aaarrrggghhh</string>
+  <string name="pirate_spec">pirate</string>
 </resources>
