@@ -159,7 +159,6 @@ import com.android.internal.util.ScreenShapeHelper;
 import com.android.internal.util.cm.ActionUtils;
 import com.android.internal.view.RotationPolicy;
 import com.android.internal.widget.PointerLocationView;
-import com.android.internal.util.xenonhd.DimensionConverter;
 import com.android.server.GestureLauncherService;
 import com.android.server.LocalServices;
 import com.android.server.policy.keyguard.KeyguardServiceDelegate;
@@ -1121,15 +1120,6 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     UserHandle.USER_ALL);
             resolver.registerContentObserver(Settings.Secure.getUriFor(
                     Settings.Secure.KILL_APP_LONGPRESS_TIMEOUT), false, this,
-                    UserHandle.USER_ALL);
-			resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.NAVIGATION_BAR_HEIGHT), false, this,
-                    UserHandle.USER_ALL);
-            resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.NAVIGATION_BAR_HEIGHT_LANDSCAPE), false, this,
-                    UserHandle.USER_ALL);
-            resolver.registerContentObserver(Settings.System.getUriFor(
-                    Settings.System.NAVIGATION_BAR_WIDTH), false, this,
                     UserHandle.USER_ALL);
             updateSettings();
         }
@@ -2557,48 +2547,6 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     CMSettings.System.NAVBAR_LEFT_IN_LANDSCAPE, 0, UserHandle.USER_CURRENT) == 1;
 
             updateKeyAssignments();
-
-			if (mHasNavigationBar) {
-                // Height of the navigation bar when presented horizontally at bottom *******
-                int navigationBarHeight = Settings.System.getIntForUser(mContext.getContentResolver(),
-                Settings.System.NAVIGATION_BAR_HEIGHT,
-                -1, UserHandle.USER_CURRENT);
-                
-			if (navigationBarHeight == -1) {
-                    navigationBarHeight = mContext.getResources().getDimensionPixelSize(
-                    com.android.internal.R.dimen.navigation_bar_height);
-            } else {
-                    navigationBarHeight = DimensionConverter.pxFromDp(mContext, navigationBarHeight);
-                }
-                mNavigationBarHeightForRotationDefault[mPortraitRotation] =
-                mNavigationBarHeightForRotationDefault[mUpsideDownRotation] = navigationBarHeight;
-
-            int navigationBarHeightLandscape = Settings.System.getIntForUser(mContext.getContentResolver(),
-                Settings.System.NAVIGATION_BAR_HEIGHT_LANDSCAPE,
-                -1, UserHandle.USER_CURRENT);
-            if (navigationBarHeightLandscape == -1) {
-                    navigationBarHeightLandscape = mContext.getResources().getDimensionPixelSize(
-                    com.android.internal.R.dimen.navigation_bar_height_landscape);
-            } else {
-                    navigationBarHeightLandscape = DimensionConverter.pxFromDp(mContext, navigationBarHeightLandscape);
-                }
-                mNavigationBarHeightForRotationDefault[mLandscapeRotation] =
-                mNavigationBarHeightForRotationDefault[mSeascapeRotation] = navigationBarHeightLandscape;
-
-            // Width of the navigation bar when presented vertically along one side
-            int navigationBarWidth = Settings.System.getIntForUser(mContext.getContentResolver(),
-                Settings.System.NAVIGATION_BAR_WIDTH, -1, UserHandle.USER_CURRENT);
-            if (navigationBarWidth == -1) {
-                    navigationBarWidth = mContext.getResources().getDimensionPixelSize(
-                    com.android.internal.R.dimen.navigation_bar_width);
-            } else {
-                    navigationBarWidth = DimensionConverter.pxFromDp(mContext, navigationBarWidth);
-                }
-                mNavigationBarWidthForRotationDefault[mPortraitRotation] =
-                mNavigationBarWidthForRotationDefault[mUpsideDownRotation] =
-                mNavigationBarWidthForRotationDefault[mLandscapeRotation] =
-                mNavigationBarWidthForRotationDefault[mSeascapeRotation] = navigationBarWidth;
-            }
 
             // Configure rotation lock.
             int userRotation = Settings.System.getIntForUser(resolver,
