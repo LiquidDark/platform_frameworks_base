@@ -36,4 +36,5 @@
   <!-- Pirate alert -->
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">pirata</string>
+  <!-- QS Lockscreen Tile -->
 </resources>

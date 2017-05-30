@@ -34,4 +34,5 @@
   <string name="quick_settings_high_brightness">Alto brilho</string>
   <string name="high_brightness_warning">Modo Alto Brilho ativado, substituindo a configuração de brilho atual</string>
   <!-- Pirate alert -->
+  <!-- QS Lockscreen Tile -->
 </resources>

@@ -36,4 +36,11 @@
   <!-- Pirate alert -->
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">pirata</string>
+  <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Schermata di blocco</string>
+  <string name="quick_settings_lockscreen_label_enforced">Blocco schermo forzata</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Schermata di blocco disattivata</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Schermata di blocco attiva</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Schermata di blocco spenta</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Schermata di blocco accesa</string>
 </resources>

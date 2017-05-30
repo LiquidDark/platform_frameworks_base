@@ -36,4 +36,11 @@
   <!-- Pirate alert -->
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">pirát</string>
+  <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Obrazovka uzamknutia</string>
+  <string name="quick_settings_lockscreen_label_enforced">Vynútená obrazovka uzamknutia</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Uzamknutie obrazovky vypnuté</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Uzamknutie obrazovky zapnuté</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Uzamknutie obrazovky vypnuté</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Uzamknutie obrazovky zapnuté</string>
 </resources>

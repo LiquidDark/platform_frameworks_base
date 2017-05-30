@@ -32,4 +32,5 @@
   <!-- Pirate alert -->
   <string name="pirate_label">啊呀!!!</string>
   <string name="pirate_spec">海盗</string>
+  <!-- QS Lockscreen Tile -->
 </resources>

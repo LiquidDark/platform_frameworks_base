@@ -36,4 +36,11 @@
   <!-- Pirate alert -->
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">korsan</string>
+  <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Kilit ekranı</string>
+  <string name="quick_settings_lockscreen_label_enforced">Kilit ekranında zorlandı</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Kilit ekranı kapalı</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Kilit ekranı açık</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Kilit ekranında devre dışı</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Kilit ekranında etkin</string>
 </resources>

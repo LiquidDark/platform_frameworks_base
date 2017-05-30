@@ -36,4 +36,11 @@
   <!-- Pirate alert -->
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">kalóz</string>
+  <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Zárképernyő</string>
+  <string name="quick_settings_lockscreen_label_enforced">Zárképernyő kényszerítve</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Zárképernyő ki</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Zárképernyő be</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Zárképernyő kikapcsolva</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Zárképernyő bekapcsolva</string>
 </resources>

@@ -36,4 +36,11 @@
   <!-- Pirate alert -->
   <string name="pirate_label">Ааарррггг</string>
   <string name="pirate_spec">пират</string>
+  <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Экран блокировки</string>
+  <string name="quick_settings_lockscreen_label_enforced">Принудительный экран блокировки</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Экран блокировки выкл.</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Экран блокировки вкл.</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Экран блокировки выключен</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Экран блокировки включен</string>
 </resources>

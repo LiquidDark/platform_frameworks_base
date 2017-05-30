@@ -36,4 +36,11 @@
   <!-- Pirate alert -->
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">海盜</string>
+  <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">鎖定畫面</string>
+  <string name="quick_settings_lockscreen_label_enforced">強制執行鎖定畫面</string>
+  <string name="accessibility_quick_settings_lock_screen_off">鎖定畫面關閉</string>
+  <string name="accessibility_quick_settings_lock_screen_on">鎖定畫面開啟</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">鎖定畫面已關閉</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">鎖定畫面已開啟</string>
 </resources>
