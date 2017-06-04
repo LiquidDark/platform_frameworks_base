@@ -298,10 +298,12 @@ public class FingerprintService extends SystemService implements IBinder.DeathRe
         if (client != null && client.onAuthenticated(fingerId, groupId)) {
             removeClient(client);
         }
-        if (fingerId != 0) {
-            mPerformanceStats.accept++;
-        } else {
-            mPerformanceStats.reject++;
+        if (mPerformanceStats != null) {
+            if (fingerId != 0) {
+                mPerformanceStats.accept++;
+            } else {
+                mPerformanceStats.reject++;
+            }
         }
     }
 
@@ -586,7 +588,7 @@ public class FingerprintService extends SystemService implements IBinder.DeathRe
             @Override
             public boolean handleFailedAttempt() {
                 mFailedAttempts++;
-                if (mFailedAttempts == MAX_FAILED_ATTEMPTS) {
+                if (mPerformanceStats != null && mFailedAttempts == MAX_FAILED_ATTEMPTS) {
                     mPerformanceStats.lockout++;
                 }
                 if (inLockoutMode()) {
