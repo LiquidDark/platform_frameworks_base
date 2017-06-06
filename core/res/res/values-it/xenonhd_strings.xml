@@ -17,4 +17,8 @@
   <string name="lucky_patcher_installed_title">LuckyPatcher trovato!!!</string>
   <string name="lucky_patcher_installed_message">Lo dichiara volentieri e ammetto che io sono un pirata e ladro. Amo rubare i soldi del duro lavoro degli sviluppatori e vantarsi.</string>
   <string name="lucky_patcher_admit">Lo dichiaro</string>
+  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_fakePackageSignature">Imitazione firma del pacchetto</string>
+  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_fakePackageSignature">Consente all\'applicazione di fingere di essere un\'altra app. Applicazioni dannose potrebbero essere in grado di utilizzare questo per accedere ai dati privati dell\'applicazione. Concedere questa autorizzazione con cautela!</string>
 </resources>

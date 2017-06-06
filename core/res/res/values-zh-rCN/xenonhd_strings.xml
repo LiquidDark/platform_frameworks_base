@@ -17,4 +17,6 @@
   <string name="lucky_patcher_installed_title">发现幸运破解器！！！</string>
   <string name="lucky_patcher_installed_message">我现在愿意承认自己是个小偷和海盗。我喜欢从用功的开发者偷钱，然后向别人炫耀。</string>
   <string name="lucky_patcher_admit">我承认</string>
+  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 </resources>

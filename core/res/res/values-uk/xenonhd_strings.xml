@@ -17,4 +17,8 @@
   <string name="lucky_patcher_installed_title">LuckyPatcher знайдено!!!</string>
   <string name="lucky_patcher_installed_message">Цим визнаю що я є злодієм і піратом. Я люблю красти гроші тяжко працюючих розробників і вихвалятися цим.</string>
   <string name="lucky_patcher_admit">Я підтверджую</string>
+  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_fakePackageSignature">Підробити підпис пакета</string>
+  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_fakePackageSignature">Дозволяє додатку видавати себе за іншу программу. Злонамірені додатки можуть використовувати приватні данні. Будте обережні під час надання цього дозволу!</string>
 </resources>

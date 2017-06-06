@@ -28,8 +28,19 @@
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
+  <string name="free_ram">Вільно RAM:\u0020</string>
   <!-- Path data for Solid battery -->
   <!-- High Brightness Mode Tile -->
+  <string name="quick_settings_high_brightness">Висока яскравість</string>
+  <string name="high_brightness_warning">Режим високої яскравості активований, відміняючи поточні настройки яскравості</string>
   <!-- Pirate alert -->
+  <string name="pirate_label">Ааарррр</string>
+  <string name="pirate_spec">пірат</string>
   <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Блокування екрану</string>
+  <string name="quick_settings_lockscreen_label_enforced">Примусове блокування екрана</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Блокування екрану вимкнено</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Блокування екрану ввімкнено</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Блокування екрана вимкнено</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Блокування екрана ввімкнено</string>
 </resources>

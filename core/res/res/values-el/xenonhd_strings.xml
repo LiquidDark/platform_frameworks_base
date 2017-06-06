@@ -17,4 +17,6 @@
   <string name="lucky_patcher_installed_title">To LuckyPatcher βρέθηκε!!!</string>
   <string name="lucky_patcher_installed_message">Δια του παρόντος πρόθυμα οφείλω να ομολογήσω ότι είμαι ένας τρόμπας, κλέφτης και ένας πειρατής. Μου αρέσει να κλέβω χρήματα από τους σκλήρα εργαζόμενους προγραμματιστές και καυχιέμαι για αυτό.</string>
   <string name="lucky_patcher_admit">Το παραδέχομαι</string>
+  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 </resources>

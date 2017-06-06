@@ -34,5 +34,13 @@
   <string name="quick_settings_high_brightness">Alto brilho</string>
   <string name="high_brightness_warning">Modo Alto Brilho ativado, substituindo a configuração de brilho atual</string>
   <!-- Pirate alert -->
+  <string name="pirate_label">Grrrrrrrr</string>
+  <string name="pirate_spec">pirata</string>
   <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Tela de bloqueio</string>
+  <string name="quick_settings_lockscreen_label_enforced">Tela de bloqueio aplicada</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Tela de bloqueio desligada</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Tela de bloqueio ligada</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Tela de bloqueio desligada</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Tela de Bloqueio ligada</string>
 </resources>

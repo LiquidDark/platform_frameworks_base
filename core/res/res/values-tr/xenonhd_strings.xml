@@ -17,4 +17,6 @@
   <string name="lucky_patcher_installed_title">LuckyPatcher bulundu!!!</string>
   <string name="lucky_patcher_installed_message">Bunu açıkça söylüyorum ki ben bi hırsız ve korsanım. Uygulamalar için çalışan geliştiricilerden para çalmayı seviyorum.</string>
   <string name="lucky_patcher_admit">İtiraf ederim</string>
+  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 </resources>

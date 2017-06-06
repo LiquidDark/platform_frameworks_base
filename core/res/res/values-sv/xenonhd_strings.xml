@@ -17,4 +17,6 @@
   <string name="lucky_patcher_installed_title">LuckyPatcher hittad!!!</string>
   <string name="lucky_patcher_installed_message">Jag medger härmed frivilligt, att jag är ett svin, en tjuv och en pirat. Jag älskar att stjäla pengar från hårt arbetande utvecklare och sen skryta om det.</string>
   <string name="lucky_patcher_admit">Jag erkänner</string>
+  <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
 </resources>
