@@ -18,5 +18,7 @@
   <string name="lucky_patcher_installed_message">J\'admets volontiers être un voleur et un pirate. J\'aime voler l\'argent des développeurs qui travaillent dur et m\'en vanter.</string>
   <string name="lucky_patcher_admit">J\'accepte</string>
   <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_fakePackageSignature">Imiter la signature de paquet</string>
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_fakePackageSignature">Autoriser l\'application à prétendre être une autre application. Des applications malveillantes peuvent être capable de l\'utiliser pour accéder aux données d\'applications privées. Accordez cette autorisation avec prudence!</string>
 </resources>

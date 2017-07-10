@@ -18,12 +18,29 @@
   <string name="statusbar_icons_blacklist">أيقونات شريط الحالة</string>
   <!-- Quick Settings tiles -->
   <string name="quick_settings_screenshot_label">لقطة للشاشة</string>
+  <string name="quick_settings_reboot_label">إعادة التشغيل</string>
+  <string name="quick_settings_reboot_recovery_label">الريكفري</string>
+  <string name="quick_settings_music_label">الموسيقى</string>
+  <string name="quick_settings_music_play">تشغيل</string>
+  <string name="quick_settings_music_pause">توقف</string>
+  <string name="quick_settings_ime_tile_label">طريقة الإدخال</string>
   <!-- Text to use when the number in a notification info is too large
          (greater than status_bar_notification_info_maxnum, defined in
          values/config.xml) and must be truncated. [CHAR LIMIT=4] -->
   <!-- Free RAM -->
+  <string name="free_ram">رام الخالية</string>
   <!-- Path data for Solid battery -->
   <!-- High Brightness Mode Tile -->
+  <string name="quick_settings_high_brightness">سطوع عالي</string>
+  <string name="high_brightness_warning">تنشيط \"وضع سطوع\" عالية، تجاوز إعدادات السطوع الحالي</string>
   <!-- Pirate alert -->
+  <string name="pirate_label">آآرررججهه</string>
+  <string name="pirate_spec">قرصان</string>
   <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">شاشة القفل</string>
+  <string name="quick_settings_lockscreen_label_enforced">شاشة القفل الإجباري</string>
+  <string name="accessibility_quick_settings_lock_screen_off">الغاء قفل الشاشة </string>
+  <string name="accessibility_quick_settings_lock_screen_on">تفعيل قفل الشاشة</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">قفل الشاشة غير مفعل.</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">قفل الشاشة مفعل.</string>
 </resources>

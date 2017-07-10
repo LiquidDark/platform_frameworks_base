@@ -37,4 +37,10 @@
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">pirate</string>
   <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Ecran de verrouillage</string>
+  <string name="quick_settings_lockscreen_label_enforced">Ecran de verrouillage forcé</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Écran de verrouillage désactivé</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Écran de verrouillage activé</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Ecran de verrouillage éteint</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Ecran de verrouillage allumé</string>
 </resources>
