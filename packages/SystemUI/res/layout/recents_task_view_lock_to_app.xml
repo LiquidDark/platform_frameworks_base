@@ -31,8 +31,4 @@
         android:layout_height="@dimen/recents_lock_to_app_icon_size"
         android:layout_gravity="center"
         android:src="@drawable/recents_lock_to_app_pin" />
-<<<<<<< HEAD
 </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
-=======
-</com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
->>>>>>> 853c9c9f98847d9150d4f7ec21b1884e3e1153d4
