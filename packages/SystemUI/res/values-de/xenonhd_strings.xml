@@ -37,4 +37,10 @@
   <string name="pirate_label">Aaarrrggghhh</string>
   <string name="pirate_spec">Pirat</string>
   <!-- QS Lockscreen Tile -->
+  <string name="quick_settings_lockscreen_label">Bildschirm sperren</string>
+  <string name="quick_settings_lockscreen_label_enforced">Sperrbildschirm erzwingen</string>
+  <string name="accessibility_quick_settings_lock_screen_off">Sperrbildschirm aus</string>
+  <string name="accessibility_quick_settings_lock_screen_on">Sperrbildschirm an</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_off">Sperrbildschirm wurde ausgeschaltet</string>
+  <string name="accessibility_quick_settings_lock_screen_changed_on">Sperrbildschirm wurde aktiviert</string>
 </resources>

@@ -14,6 +14,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- LuckyPatcher carnt dialog -->
+  <string name="lucky_patcher_installed_title">LuckyPatcher pronađen!!!</string>
+  <string name="lucky_patcher_installed_message">Ovime dragovoljno priznajem da sam lopov i gusar. Volim krasti novac od vrijednih programera i pohvaliti se time.</string>
+  <string name="lucky_patcher_admit">Priznajem</string>
   <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_fakePackageSignature">Spoof package potpis</string>
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_fakePackageSignature">Omogući ovoj aplikaciji da se pretvara da je druga aplikacija. Zlonamjerne aplikacije mogu koristiti ovo kako bi pristupili podacima sa privatnih aplikacija. Dodjeljivanje ove dozvole uz krajnji oprez!</string>
 </resources>

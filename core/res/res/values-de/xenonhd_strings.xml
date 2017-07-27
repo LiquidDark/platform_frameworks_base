@@ -18,5 +18,7 @@
   <string name="lucky_patcher_installed_message">Ich gebe hiermit gern zu, dass ich ein Arsch, Dieb und ein Pirat bin. Ich liebe es Geld zu stehlen von hart arbeitenden Entwicklern und damit zu prahlen.</string>
   <string name="lucky_patcher_admit">Ich stimme zu</string>
   <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permlab_fakePackageSignature">Signatur-Nachahmung</string>
   <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+  <string name="permdesc_fakePackageSignature">Erlaubt einer App, eine andere zu imitieren. Böswillige Anwendungen erhalten möglicherweise ihre persönlichen Daten. Verteilen Sie diese Berechtigung vorsichtig!</string>
 </resources>
